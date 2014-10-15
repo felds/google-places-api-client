@@ -1,0 +1,11 @@
+{
+    "require": {
+        "guzzle/guzzle": "~3.2",
+        "symfony/yaml": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Felds\\GooglePlacesAPIClient\\": "lib"
+        }
+    }
+}

@@ -1,4 +1,14 @@
 {
+    "name": "felds/google-places-api-client",
+    "description": "Google Places API client using the Guzzle library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felds Liscia",
+            "email": "dev@felds.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
         "guzzle/guzzle": "~3.2",
         "symfony/yaml": "~2.5"

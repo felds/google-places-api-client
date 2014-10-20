@@ -30,7 +30,7 @@ class GooglePlacesAPIClient extends BaseClient
         ));
 
         // Set the service description
-        $client->setDescription(ServiceDescription::factory(__DIR__ . '/../config/service_description.php'));
+        $client->setDescription(ServiceDescription::factory(__DIR__ . '/../config/service_description.json'));
 
         return $client;
     }

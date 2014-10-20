@@ -5,9 +5,7 @@
         "nearbysearch": {
             "uri": "nearbysearch/json",
             "httpMethod": "GET",
-            "additionalParameters": {
-                "location": "query"
-            },
+            "additionalParameters": { "location": "query" },
             "parameters": {
                 "location": {
                     "location": "query"
@@ -20,9 +18,7 @@
         "textsearch": {
             "uri": "radarsearch/json",
             "httpMethod": "GET",
-            "additionalParameters": {
-                "location": "query"
-            },
+            "additionalParameters": { "location": "query" },
             "parameters": {
                 "query": {
                     "location": "query"
@@ -35,9 +31,7 @@
         "radarsearch": {
             "uri": "radarsearch/json",
             "httpMethod": "GET",
-            "additionalParameters": {
-                "location": "query"
-            },
+            "additionalParameters": { "location": "query" },
             "parameters": {
                 "location": {
                     "location": "query"
@@ -49,6 +43,19 @@
                     "radius": "query"
                   , "required": true
                   , "description": "efines the distance (in meters) within which to return place results. The maximum allowed radius is 50 000 meters."
+                }
+            }
+        }
+        ,
+        "details": {
+            "uri": "details/json",
+            "httpMethod": "GET",
+            "additionalParameters": { "location": "query" },
+            "parameters": {
+                "placeid": {
+                    "location": "query"
+                  , "required": true
+                  , "description": "A textual identifier that uniquely identifies a place, returned from a Place Search."
                 }
             }
         }

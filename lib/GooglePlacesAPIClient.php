@@ -27,6 +27,7 @@ class GooglePlacesAPIClient extends BaseClient
         $client = new self($config->get('base_url'), $config);
         $client->setDefaultOption('query',  array(
             'key' => $config['key'],
+            'language' => $config['language'],
         ));
 
         // Set the service description

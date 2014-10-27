@@ -59,5 +59,18 @@
                 }
             }
         }
+        ,
+        "autocomplete": {
+            "uri": "autocomplete/json",
+            "httpMethod": "GET",
+            "additionalParameters": { "location": "query" },
+            "parameters": {
+                "input": {
+                    "location": "query"
+                  , "required": true
+                  , "description": "The text string on which to search. The Place Autocomplete service will return candidate matches based on this string and order results based on their perceived relevance."
+                }
+            }
+        }
     }
 }
